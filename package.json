@@ -1,0 +1,24 @@
+{
+  "name": "applydigital",
+  "version": "1.0.0",
+  "description": "Challenge for Apply Digital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Test",
+    "automation",
+    "framework"
+  ],
+  "author": "Nahuel Trovato",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.1",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }, 
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/cucumber/Tests/**"
+  }
+}
